@@ -1,0 +1,31 @@
+<!DOCTYPE html>{% load static %}
+<html>
+	<head>
+        <meta charset="UTF-8">
+	    <title>Claim check</title>
+        <link rel="stylesheet" href="{% static "style.css" %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="container">
+    <h1>Which sentence is a claim?</h1>
+        <form action="/savedata/" method="post">
+        {% csrf_token %}
+        <section style="margin-top: 5%;margin-right: 10%;margin-left: 10%">
+            {% for log in logs %}
+                <div>
+                <input type="radio" id={{forloop.counter}} name="select" value={{log.id}} required>
+                <label for={{forloop.counter}}>
+                <p style="margin-top: 5%">{{log.sentence}}</p>
+                </label>
+                <input type="hidden" name={{forloop.counter}} value={{log.id}}>
+                </div>
+            {% endfor %}
+        </section>
+        <div class="cont">
+            <button type="submit" class="btn">Submit</button>
+        </div>
+        </form>
+    </div>
+	</body>
+</html>
