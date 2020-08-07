@@ -16,6 +16,7 @@ class CitationNeededScraper(scrapy.Spider):   # our class inherits from scrapy.S
       #urls = ['https://en.wikipedia.org/wiki/Quake_4',]  # list to enter our urls
       with open("Links.LIST", "rb") as tempfile:
           urls = pickle.load(tempfile)
+
       for url in urls:
           yield scrapy.Request(url=url, callback=self.parse)
 
