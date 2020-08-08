@@ -26,7 +26,7 @@ except:
 #wiki_pages = random.sample(wiki_pages,200)
 LEN = len(wiki_pages)
 
-limit = 2000
+limit = 100
 
 try:
     with open(os.path.join(data_dir, ID_file) , 'rb') as tempfile:

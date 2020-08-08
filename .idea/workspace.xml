@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="856dd2c3-52e2-4ea6-afa7-f3fcb2397e0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py" beforeDir="false" afterPath="$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoProject/crowdcheck/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/crowdcheck/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,76 +15,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Claim_Extraction/list_of_citation_needed.py">
+        <entry file="file://$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="39" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="240">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/crowdcheck/urls.py">
+        <entry file="file://$PROJECT_DIR$/Claim_Extraction/Insert_Data_into_SQLite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#634#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/static/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Claim_Extraction/Insert_Data_into_SQLite.py">
+        <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state relative-caret-position="421">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,12 +82,13 @@
         <option value="$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/templates/hello_world.html" />
         <option value="$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/static/style.css" />
         <option value="$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/templates/claimcheck.html" />
-        <option value="$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py" />
         <option value="$PROJECT_DIR$/DjangoProject/crowdcheck/crowdcheck/settings.py" />
         <option value="$PROJECT_DIR$/DjangoProject/crowdcheck/crowdcheck/urls.py" />
         <option value="$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/models.py" />
         <option value="$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/urls.py" />
         <option value="$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/views.py" />
+        <option value="$PROJECT_DIR$/ScrapyProject/wikicrawl/wikicrawl/spiders/citationneededscraper.py" />
+        <option value="$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py" />
       </list>
     </option>
   </component>
@@ -143,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,19 +120,18 @@
             <path>
               <item name="Wikipedia_Claim_Data" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wikipedia_Claim_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Claim_Extraction" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wikipedia_Claim_Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wikipedia_Claim_Data" type="462c0819:PsiDirectoryNode" />
               <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Wikipedia_Claim_Data" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wikipedia_Claim_Data" type="462c0819:PsiDirectoryNode" />
               <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
-              <item name="crowdcheck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Wikipedia_Claim_Data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wikipedia_Claim_Data" type="462c0819:PsiDirectoryNode" />
-              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
-              <item name="crowdcheck" type="462c0819:PsiDirectoryNode" />
               <item name="crowdcheck" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,11 +141,36 @@
               <item name="crowdcheck" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Wikipedia_Claim_Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wikipedia_Claim_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="ScrapyProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wikipedia_Claim_Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wikipedia_Claim_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="ScrapyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="wikicrawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wikipedia_Claim_Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wikipedia_Claim_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="ScrapyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="wikicrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="wikicrawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wikipedia_Claim_Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wikipedia_Claim_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="ScrapyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="wikicrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="wikicrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,10 +186,11 @@
       <recent name="$PROJECT_DIR$/Claim_Extraction/Data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ScrapyProject/wikicrawl/wikicrawl/spiders" />
+      <recent name="$PROJECT_DIR$/ScrapyProject/wikicrawl" />
       <recent name="$PROJECT_DIR$/DjangoProject/crowdcheck/webapp" />
       <recent name="$PROJECT_DIR$/Claim_Extraction" />
       <recent name="$PROJECT_DIR$/DjangoProject/crowdcheck/crowdcheck" />
-      <recent name="$PROJECT_DIR$/DjangoProject/crowdcheck" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1">
+  <component name="RunManager" selected="Python.Insert_Data_into_SQLite">
     <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Wikipedia_Claim_Data" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,6 +272,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Insert_Data_into_SQLite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Wikipedia_Claim_Data" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Claim_Extraction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Claim_Extraction/Insert_Data_into_SQLite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="list_of_citation_needed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Wikipedia_Claim_Data" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,6 +318,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Insert_Data_into_SQLite" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.2" />
         <item itemvalue="Python.1 (1)" />
@@ -334,7 +344,8 @@
       <workItem from="1595965934240" duration="671000" />
       <workItem from="1596010342685" duration="18788000" />
       <workItem from="1596093845216" duration="4667000" />
-      <workItem from="1596841982015" duration="1491000" />
+      <workItem from="1596841982015" duration="1810000" />
+      <workItem from="1596870748473" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="extract list of websites contains &quot;Citation Needed&quot; tag">
       <created>1595424501696</created>
@@ -364,17 +375,38 @@
       <option name="project" value="LOCAL" />
       <updated>1596843312583</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add django project">
+      <created>1596843479577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596843479577</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add Scrapy project">
+      <created>1596843646199</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596843646199</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Scrapy project">
+      <created>1596843760673</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596843760673</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67010000" />
+    <option name="totallyTimeSpent" value="67768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27307904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2763958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,7 +420,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.35876176" side_tool="true" weight="0.33891213" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32008368" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31171548" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3294979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -405,12 +437,14 @@
     <MESSAGE value="Adding code for extract citation needed sentences" />
     <MESSAGE value="delete django" />
     <MESSAGE value="add django project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add django project" />
+    <MESSAGE value="add Scrapy project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Scrapy project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Wikipedia_Claim_Data$Insert_Data_into_SQLite.coverage" NAME="Insert_Data_into_SQLite Coverage Results" MODIFIED="1596870915069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Claim_Extraction" />
     <SUITE FILE_PATH="coverage/Wikipedia_Claim_Data$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1595930338809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Claim_Extraction" />
     <SUITE FILE_PATH="coverage/Wikipedia_Claim_Data$2.coverage" NAME="2 Coverage Results" MODIFIED="1595931721696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Claim_Extraction" />
-    <SUITE FILE_PATH="coverage/Wikipedia_Claim_Data$1.coverage" NAME="1 Coverage Results" MODIFIED="1596094254681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Claim_Extraction" />
+    <SUITE FILE_PATH="coverage/Wikipedia_Claim_Data$1.coverage" NAME="1 Coverage Results" MODIFIED="1596870790062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Claim_Extraction" />
     <SUITE FILE_PATH="coverage/Wikipedia_Claim_Data$list_of_citation_needed.coverage" NAME="list_of_citation_needed Coverage Results" MODIFIED="1595422164168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Claim_Extraction" />
   </component>
   <component name="editorHistoryManager">
@@ -445,19 +479,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py">
+    <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/crowdcheck/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Claim_Extraction/list_of_citation_needed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="315">
           <caret line="24" column="39" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -465,10 +496,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/crowdcheck/settings.py">
+    <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyProject/wikicrawl/wikicrawl/spiders/citationneededscraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -482,44 +537,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/static/style.css">
+    <entry file="file://$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="240">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Claim_Extraction/Data/Claims_JSON.LIST">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Claim_Extraction/Insert_Data_into_SQLite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DjangoProject/crowdcheck/webapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="421">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Claim_Extraction/Insert_Data_into_SQLite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
         </state>
       </provider>
     </entry>
