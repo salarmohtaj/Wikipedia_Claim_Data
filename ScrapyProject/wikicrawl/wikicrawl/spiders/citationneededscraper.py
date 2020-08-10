@@ -12,16 +12,15 @@ class CitationNeededScraper(scrapy.Spider):   # our class inherits from scrapy.S
     name = "citationneeded"
     def start_requests(self):
         #urls = ['https://en.wikipedia.org/wiki/Quake_4',]  # list to enter our urls
-        with open("Links.LIST", "rb") as tempfile:
+        with open("Links_1.LIST", "rb") as tempfile:
             urls = pickle.load(tempfile)
 
-        urls = urls[:50]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
         filename = urlparse(response.request.url).path
-        with open(os.path.join("data", filename.replace("/", "_") + ".html"), 'w') as f:
+        with open(os.path.join("data_1", filename.replace("/", "_") + ".html"), 'w') as f:
             f.write(response.text)
 
 

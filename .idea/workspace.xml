@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScrapyProject/wikicrawl/wikicrawl/spiders/citationneededscraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="165">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -75,8 +75,8 @@
       <find>width</find>
       <find>font-weight</find>
       <find>32</find>
-      <find>nlp</find>
       <find>citation needed</find>
+      <find>nlp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,10 +103,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
+    <option name="x" value="1985" />
     <option name="y" value="-4" />
-    <option name="width" value="1857" />
-    <option name="height" value="1085" />
+    <option name="width" value="2495" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,6 +136,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,7 +312,9 @@
       <workItem from="1596093845216" duration="4667000" />
       <workItem from="1596841982015" duration="1810000" />
       <workItem from="1596870748473" duration="1881000" />
-      <workItem from="1596959420012" duration="7512000" />
+      <workItem from="1596959420012" duration="9314000" />
+      <workItem from="1596985939722" duration="2473000" />
+      <workItem from="1597046563090" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="extract list of websites contains &quot;Citation Needed&quot; tag">
       <created>1595424501696</created>
@@ -370,17 +372,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596871190000</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change scrapy approach &#10;write whole html instead of sentences">
+      <created>1596982458630</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596982458630</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76722000" />
+    <option name="totallyTimeSpent" value="82025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
+    <frame x="1985" y="-4" width="2495" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27971256" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28542262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -394,7 +403,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.35876176" side_tool="true" weight="0.33891213" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3043933" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29707113" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3294979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -412,7 +421,8 @@
     <MESSAGE value="delete django" />
     <MESSAGE value="add django project" />
     <MESSAGE value="add Scrapy project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Scrapy project" />
+    <MESSAGE value="change scrapy approach &#10;write whole html instead of sentences" />
+    <option name="LAST_COMMIT_MESSAGE" value="change scrapy approach &#10;write whole html instead of sentences" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Wikipedia_Claim_Data$Insert_Data_into_SQLite.coverage" NAME="Insert_Data_into_SQLite Coverage Results" MODIFIED="1596870915069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Claim_Extraction" />
@@ -505,6 +515,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Claim_Extraction/Data/Claims_JSON.LIST" />
+    <entry file="file://$PROJECT_DIR$/ScrapyProject/wikicrawl/data/_wiki_Battle_of_Fredericksburg.json" />
+    <entry file="file://$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Claim_Extraction/Insert_Data_into_SQLite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -522,24 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Claim_Extraction/Extract_citation_needed_sentences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyProject/wikicrawl/data/_wiki_Battle_of_Fredericksburg.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="451" column="792" selection-start-line="451" selection-start-column="777" selection-end-line="451" selection-end-column="792" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScrapyProject/wikicrawl/wikicrawl/spiders/citationneededscraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="165">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
